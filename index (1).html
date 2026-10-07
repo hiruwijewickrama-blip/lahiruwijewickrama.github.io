@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lahiru Wijewickrama</title>
+<meta name="description" content="Lahiru Wijewickrama — Lecturer, Department of Mechanical Engineering, General Sir John Kotelawala Defence University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbfaf7;--surface:#fff;--text:#1d2330;--muted:#5b6475;--line:#e4e1d8;--accent:#1f4e79;--accent-soft:#e8eff7;--tag:#f1ede3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151b;--surface:#191d25;--text:#e6e8ec;--muted:#9aa3b2;--line:#2a303b;--accent:#7fb2e5;--accent-soft:#1d2a3a;--tag:#232833}}
+:root[data-theme="dark"]{--bg:#12151b;--surface:#191d25;--text:#e6e8ec;--muted:#9aa3b2;--line:#2a303b;--accent:#7fb2e5;--accent-soft:#1d2a3a;--tag:#232833}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;line-height:1.25;margin:0}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:20px;height:56px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+nav .wrap::-webkit-scrollbar{display:none}
+nav .brand{font-family:"Source Serif 4",serif;font-weight:700;color:var(--text);margin-right:auto}
+nav a.l{color:var(--muted);font-size:14px;font-weight:500}nav a.l:hover{color:var(--accent);text-decoration:none}
+header.hero{padding:64px 0 40px}
+.hero-grid{display:flex;gap:32px;align-items:flex-start}
+.hero-grid img{width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid var(--surface);box-shadow:0 2px 12px rgba(0,0,0,.12);flex-shrink:0}
+@media (max-width:640px){.hero-grid{flex-direction:column}.hero-grid img{width:120px;height:120px}}
+.hero h1{font-size:clamp(34px,6vw,52px);letter-spacing:-.5px}
+.creds{color:var(--muted);font-size:15px;margin-top:6px}
+.role{font-size:18px;margin-top:14px}
+.bio{max-width:68ch;margin:18px 0 0}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.links a{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font-size:14px;font-weight:500}
+.links a:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+.links svg{width:16px;height:16px;fill:currentColor}
+.interests{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.interests span{background:var(--accent-soft);color:var(--accent);font-size:13px;font-weight:500;padding:4px 12px;border-radius:6px}
+section{padding:44px 0;border-top:1px solid var(--line)}
+section h2{font-size:28px;margin-bottom:24px}
+h3.sub{font-family:Inter,sans-serif;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:28px 0 12px}
+h3.sub:first-of-type{margin-top:0}
+.item{display:grid;grid-template-columns:160px 1fr;gap:20px;padding:16px 0;border-bottom:1px dashed var(--line)}
+.item:last-child{border-bottom:0}
+.when{color:var(--muted);font-size:14px}
+.item h4{margin:0;font-size:17px;font-weight:600}
+.org{color:var(--muted);font-size:15px}
+.item p{margin:6px 0 0;font-size:15px}
+.badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--tag);color:var(--muted);margin-left:8px;vertical-align:2px}
+.badge.now{background:var(--accent-soft);color:var(--accent)}
+@media (max-width:640px){.item{grid-template-columns:1fr;gap:4px}}
+ol.pubs{margin:0;padding-left:22px}ol.pubs li{margin:0 0 14px;font-size:15px}
+.t{font-weight:600}.v{font-style:italic;color:var(--muted)}
+.me{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px}
+.card h4{margin:0 0 6px;font-size:16px;font-weight:600}
+.card .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
+.card p{margin:0;font-size:14.5px}
+ul.clean{margin:0;padding-left:20px}ul.clean li{margin-bottom:8px;font-size:15px}
+.pre{white-space:pre-line}
+footer{padding:32px 0 48px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+.loading{padding:120px 16px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<div id="app"><div class="loading">Loading…</div></div>
+
+<script>
+const ICONS = {
+  scholar:'<path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.84 3.92A8 8 0 0 1 12 9a8 8 0 0 1 7.16 4.42L24 9.5z"/>',
+  orcid:'<path d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zM8.1 17.4H6.6V7.6h1.5zm-.75-11.2a.98.98 0 1 1 0-1.96.98.98 0 0 1 0 1.96zM18 12.5c0 2.9-2 4.9-5 4.9H9.9V7.6H13c3 0 5 2 5 4.9zm-1.6 0c0-2.1-1.3-3.5-3.5-3.5h-1.5v7h1.5c2.2 0 3.5-1.4 3.5-3.5z"/>',
+  linkedin:'<path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>',
+  github:'<path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/>',
+  email:'<path d="M2 4h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v.5l10 6.25L22 6.5V6zm0 2.85V18h20V8.85l-10 6.25z"/>',
+  link:'<path d="M10.6 13.4a1 1 0 0 1 0-1.4l3.5-3.5a3 3 0 1 1 4.2 4.2l-2 2a1 1 0 1 1-1.4-1.4l2-2a1 1 0 0 0-1.4-1.4l-3.5 3.5a1 1 0 0 1-1.4 0zm2.8-2.8a1 1 0 0 1 0 1.4l-3.5 3.5a3 3 0 1 1-4.2-4.2l2-2a1 1 0 1 1 1.4 1.4l-2 2a1 1 0 0 0 1.4 1.4l3.5-3.5a1 1 0 0 1 1.4 0z"/>'
+};
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ext = u => /^(https?:)/.test(u) ? ' target="_blank" rel="noopener"' : '';
+function icon(label, url){
+  const k = (label + ' ' + url).toLowerCase();
+  const key = k.includes('scholar') ? 'scholar' : k.includes('orcid') ? 'orcid' : k.includes('linkedin') ? 'linkedin' :
+              k.includes('github') ? 'github' : k.includes('mailto') || k.includes('email') ? 'email' : 'link';
+  return `<svg viewBox="0 0 24 24">${ICONS[key]}</svg>`;
+}
+function highlight(authors, name){
+  const safe = esc(authors);
+  if (!name) return safe;
+  // underline each author entry containing the highlight name
+  return safe.split(/,\s*/).map(a => a.includes(esc(name)) ? `<span class="me">${a}</span>` : a).join(', ');
+}
+const has = arr => Array.isArray(arr) && arr.length;
+
+function render(d){
+  const p = d.profile || {};
+  document.title = p.name || 'Home';
+  const sections = [];
+
+  if (has(d.research)) sections.push(['research','Current Research', `
+    <div class="cards">${d.research.map(r => `
+      <div class="card"><h4>${esc(r.title)}</h4>${r.meta ? `<div class="meta">${esc(r.meta)}</div>` : ''}<p>${esc(r.description)}</p></div>`).join('')}
+    </div>`]);
+
+  if (has(d.publications)) {
+    const groups = [];
+    d.publications.forEach(pub => {
+      let g = groups.find(g => g.name === (pub.category || 'Other'));
+      if (!g) groups.push(g = { name: pub.category || 'Other', items: [] });
+      g.items.push(pub);
+    });
+    sections.push(['publications','Publications &amp; Presentations', groups.map(g => `
+      <h3 class="sub">${esc(g.name)}</h3>
+      <ol class="pubs">${g.items.map(x => `
+        <li>${highlight(x.authors, p.highlightName)}. <span class="t">${esc(x.title)}.</span>
+        ${x.venue ? `<span class="v">${esc(x.venue)}</span>${x.details ? ', ' : '.'}` : ''} ${esc(x.details)}
+        ${x.url ? `<a href="${esc(x.url)}"${ext(x.url)}>${esc(x.urlText || 'Link')}</a>` : ''}
+        ${x.status ? `<span class="badge">${esc(x.status)}</span>` : ''}
+        ${x.award ? `<span class="badge now">${esc(x.award)}</span>` : ''}</li>`).join('')}
+      </ol>`).join('')]);
+  }
+
+  if (has(d.experience)) sections.push(['experience','Professional Experience', d.experience.map(e => `
+    <div class="item"><div class="when">${esc(e.when)}</div><div>
+      <h4>${esc(e.title)}${e.current ? ' <span class="badge now">Current</span>' : ''}</h4>
+      <div class="org">${e.orgUrl ? `<a href="${esc(e.orgUrl)}"${ext(e.orgUrl)}>${esc(e.org)}</a>` : esc(e.org)}</div>
+      ${e.description ? `<p>${esc(e.description)}</p>` : ''}
+    </div></div>`).join('')]);
+
+  if (has(d.education)) sections.push(['education','Education', d.education.map(e => `
+    <div class="item"><div class="when">${esc(e.when)}</div><div>
+      <h4>${esc(e.title)}</h4><div class="org">${esc(e.org)}</div>${e.description ? `<p>${esc(e.description)}</p>` : ''}
+    </div></div>`).join('')]);
+
+  if (has(d.awards)) sections.push(['awards','Awards &amp; Recognition', `
+    <div class="cards">${d.awards.map(a => `
+      <div class="card"><h4>${esc(a.heading)}</h4><ul class="clean">${(a.items||[]).map(i => `<li>${esc(i)}</li>`).join('')}</ul></div>`).join('')}
+    </div>`]);
+
+  const c = d.contact || {};
+  const profiles = (d.links||[]).filter(l => !/^mailto:/.test(l.url));
+  sections.push(['contact','Contact', `
+    <div class="cards">
+      ${c.office ? `<div class="card"><h4>Office</h4><p class="pre">${esc(c.office)}</p></div>` : ''}
+      ${has(c.emails) ? `<div class="card"><h4>Email</h4><p>${c.emails.map(e => `<a href="mailto:${esc(e.address)}">${esc(e.address)}</a>${e.label ? ` (${esc(e.label)})` : ''}`).join('<br>')}</p></div>` : ''}
+      ${profiles.length ? `<div class="card"><h4>Profiles</h4><p>${profiles.map(l => `<a href="${esc(l.url)}"${ext(l.url)}>${esc(l.label)}</a>`).join('<br>')}</p></div>` : ''}
+    </div>`]);
+
+  document.getElementById('app').innerHTML = `
+  <nav><div class="wrap">
+    <a class="brand" href="#top">${esc(p.shortName || p.name)}</a>
+    ${sections.map(([id,t]) => `<a class="l" href="#${id}">${t.split(' &amp;')[0].replace('Current ','').replace('Professional ','')}</a>`).join('')}
+  </div></nav>
+  <header class="hero" id="top"><div class="wrap"><div class="hero-grid">
+    ${p.photo ? `<img src="${esc(p.photo)}" alt="${esc(p.name)}">` : ''}
+    <div>
+      <h1>${esc(p.name)}</h1>
+      ${p.credentials ? `<div class="creds">${esc(p.credentials)}</div>` : ''}
+      <div class="role">${p.role ? `<strong>${esc(p.role)}</strong>` : ''}${p.affiliation ? `<br>${esc(p.affiliation)}` : ''}</div>
+      ${p.bio ? `<p class="bio">${esc(p.bio)}</p>` : ''}
+      ${has(p.interests) ? `<div class="interests">${p.interests.map(i => `<span>${esc(i)}</span>`).join('')}</div>` : ''}
+      ${has(d.links) ? `<div class="links">${d.links.map(l => `<a href="${esc(l.url)}"${ext(l.url)}>${icon(l.label,l.url)}${esc(l.label)}</a>`).join('')}</div>` : ''}
+    </div>
+  </div></div></header>
+  <main>${sections.map(([id,t,html]) => `<section id="${id}"><div class="wrap"><h2>${t}</h2>${html}</div></section>`).join('')}</main>
+  <footer><div class="wrap">${esc(d.footer)}</div></footer>`;
+}
+
+fetch('content.json', { cache: 'no-cache' })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch(() => {
+    document.getElementById('app').innerHTML = '<div class="loading">Could not load content.json. If you opened this file directly from your computer, upload it to GitHub Pages instead — the page needs to be served from a website.</div>';
+  });
+</script>
+</body>
+</html>

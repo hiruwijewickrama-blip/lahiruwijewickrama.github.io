@@ -1,0 +1,91 @@
+{
+  "profile": {
+    "name": "Lahiru Wijewickrama",
+    "shortName": "L. Wijewickrama",
+    "highlightName": "Wijewickrama",
+    "credentials": "BSc (Hons) Engineering, HNDIT · AMIMechE, MIEng",
+    "role": "Lecturer, Department of Mechanical Engineering, Faculty of Engineering",
+    "affiliation": "General Sir John Kotelawala Defence University, Sri Lanka",
+    "photo": "",
+    "bio": "I am a mechanical engineer with a background in information technology, working at the intersection of mechanical engineering and computer science. My research interests span robotics, automation, control systems, and advanced materials, and I aim to pursue doctoral research in these areas. I teach Intelligent Systems and Control, Programming Fundamentals, and Industrial Engineering, and supervise final-year undergraduate research projects.",
+    "interests": ["Robotics", "Automation", "Control Systems", "Fibre Reinforced Composites", "Industrial Engineering", "Sustainable Systems"]
+  },
+  "links": [
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=wpdrBVsAAAAJ&hl=en" },
+    { "label": "ORCID", "url": "https://orcid.org/0009-0002-2235-9885" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/lahiruwijew/" },
+    { "label": "GitHub", "url": "https://github.com/YOUR-GITHUB-USERNAME" },
+    { "label": "Email", "url": "mailto:wijewickrama.alss@kdu.ac.lk" }
+  ],
+  "research": [
+    {
+      "title": "Fibre Reinforced Composites in Marine Deck Manufacture: A Review",
+      "meta": "Centre for Future Materials, University of Southern Queensland × CINEC Campus",
+      "description": "Evaluates the mechanical performance, durability and corrosion resistance of fibre reinforced composites for marine deck structures in harsh underwater conditions, with a focus on extending service life, lowering maintenance costs and improving sustainability. Published in MDPI Polymers."
+    },
+    {
+      "title": "Engineering Innovations in Perishable Vegetable Logistics: Digital Tools for Supply–Demand Management",
+      "meta": "University of Nebraska–Lincoln × CINEC Campus",
+      "description": "Reviews Sri Lanka's post-harvest logistics challenges against international practice and identifies digital and engineering solutions that improve traceability, reduce spoilage and support food security."
+    }
+  ],
+  "publications": [
+    { "category": "Journal Articles", "authors": "A.L.S.S. Wijewickrama, G.I.P. Perera, J. Jeewantha, O. Alajarmeh, J. Epaarachchi", "title": "Fibre Reinforced Composite used in Manufacture of Marine Decks: A Review", "venue": "Polymers (MDPI)", "details": "2025. Q1, IF 4.9.", "url": "https://doi.org/10.3390/polym17172345", "urlText": "doi:10.3390/polym17172345", "status": "", "award": "" },
+    { "category": "Journal Articles", "authors": "A.L.S.S. Wijewickrama, I. Virantha, L. Kalhara, D.M. Silva, S. Abewardhana", "title": "Design and Fabrication of an Innovative Rattan Splitting Machine for Efficient and Sustainable Production of High-Quality Rattan Material", "venue": "Journal of Advanced Industrial Technology and Application", "details": "2025.", "url": "https://doi.org/10.30880/jaita.2025.06.01.004", "urlText": "doi:10.30880/jaita.2025.06.01.004", "status": "", "award": "" },
+    { "category": "Journal Articles", "authors": "A.L.S.S. Wijewickrama, G.A.D. Nawoda, U.T.P. Perera", "title": "Development of an Energy-Efficient and Cost-Effective Flour Sieving System for Small-Scale Food Processing", "venue": "International Research Journal of Modernization in Engineering Technology and Science", "details": "6(11), 2024.", "url": "https://www.doi.org/10.56726/IRJMETS64474", "urlText": "doi:10.56726/IRJMETS64474", "status": "", "award": "" },
+    { "category": "Journal Articles", "authors": "A. Kumarage, A.L.S.S. Wijewickrama", "title": "Design Optimization of an Adjustable Multi-Cup Sealer for Enhanced Packaging Efficiency", "venue": "Periodica Polytechnica Mechanical Engineering", "details": "", "url": "", "urlText": "", "status": "Under review", "award": "" },
+    { "category": "Journal Articles", "authors": "A.L.S.S. Wijewickrama, B. Bandara", "title": "Redesigning Safety Switches for Enhanced Protection in Macpi Heat Press Machines", "venue": "Journal of Advanced Mechanical Engineering Applications", "details": "", "url": "", "urlText": "", "status": "Under review", "award": "" },
+    { "category": "Book Chapters", "authors": "L. Wijewickrama, N.P. Dharmasiri, B. Bandara, G.I.P. Perera, J. Jeewantha", "title": "Real Time Automated Barcode System for GRN and Issuing in Mechanical Spare Parts Management", "venue": "Applied Research in Business and Education, Taylor & Francis", "details": "2025 (ICOBI 2025).", "url": "https://www.routledge.com/Applied-Research-in-Business-and-Education/Udeshinee-Gayanika-Silva/p/book/9781041240679", "urlText": "ISBN 9781041240679", "status": "", "award": "" },
+    { "category": "Book Chapters", "authors": "L. Wijewickrama, N.G.A. Weerasena, G.I.P. Perera, L.P.T. Madushani, J. Jeewantha", "title": "Sustainable Water Conservation in Sri Lankan Industries Through Automated Rainwater Harvesting and Supply Switching", "venue": "Proceedings of the 16th International Conference on Sustainable Built Environment (ICSBE 2025), Springer Nature", "details": "", "url": "", "urlText": "", "status": "Accepted", "award": "Best Paper" },
+    { "category": "Conference Papers & Abstracts", "authors": "A.L.S.S. Wijewickrama, N.P. Dharmasiri, B. Bandara", "title": "A Role-Based Barcode System for Digitized Inventory Management in Engineering Applications", "venue": "52nd International Conference on Computers and Industrial Engineering (CIE52)", "details": "INSA Lyon, France, 2025.", "url": "", "urlText": "", "status": "", "award": "" },
+    { "category": "Conference Papers & Abstracts", "authors": "A.L.S.S. Wijewickrama, B. Bandara", "title": "Workflow Optimization in Garment Machinery Servicing: An ECRS-Based Solution for SOP Time Compliance", "venue": "ICSBE 2025", "details": "Kandy, Sri Lanka, 2025.", "url": "", "urlText": "", "status": "", "award": "" },
+    { "category": "Conference Papers & Abstracts", "authors": "A.L.S.S. Wijewickrama, A. Weerasena, R. Dilshan, G.I.P. Perera, J. Jeewantha", "title": "Automated Rainwater Harvesting and Municipal Water Switching System for Sustainable Non-Potable Water Use in Industrial Facilities", "venue": "6th CINEC International Research Symposium (CIRS)", "details": "2025.", "url": "", "urlText": "", "status": "", "award": "Best Poster" },
+    { "category": "Conference Papers & Abstracts", "authors": "A.L.S.S. Wijewickrama, U.T.P. Perera, G.A.D. Nawoda", "title": "Development of an Energy-Efficient and Cost-Effective Flour Sieving System for Small-Scale Food Processing", "venue": "5th CINEC International Research Symposium (CIRS-2024)", "details": "December 2024. Oral presentation.", "url": "", "urlText": "", "status": "", "award": "" },
+    { "category": "Conference Papers & Abstracts", "authors": "G.A.D. Nawoda, A.L.S.S. Wijewickrama, K. Khemarathne", "title": "Design and Analysis of an Electro-Mechanical Automotive Lift with Enhanced Safety and Efficiency Features", "venue": "CIRS-2024", "details": "December 2024.", "url": "", "urlText": "", "status": "", "award": "Best Poster" },
+    { "category": "Conference Papers & Abstracts", "authors": "A.L.S.S. Wijewickrama, A.G.S.J. Abeawardhana, A.B.D.M. Silva, I. Virantha", "title": "Design and Fabrication of a Rattan Splitting Machine for Efficient Production of High-Quality Rattan Material", "venue": "4th CINEC International Research Symposium", "details": "January 2024. Oral presentation.", "url": "", "urlText": "", "status": "", "award": "" }
+  ],
+  "experience": [
+    { "when": "Jan 2026 – Present", "title": "Lecturer (Probationary)", "org": "Dept. of Mechanical Engineering, General Sir John Kotelawala Defence University", "orgUrl": "https://foe.kdu.ac.lk/department-of-mechanical-engineering/profile/mr-alss-wijewickrama", "description": "Teaching Intelligent Systems and Control, Programming Fundamentals and Industrial Engineering; supervising final-year undergraduate research projects.", "current": true },
+    { "when": "May 2026 – Present", "title": "Visiting Lecturer", "org": "Dept. of Mechanical & Automotive Engineering, CINEC Campus", "orgUrl": "", "description": "Advanced Mechanical Principles for HND Engineering students.", "current": false },
+    { "when": "Feb 2025 – Present", "title": "Visiting Lecturer", "org": "Dept. of Information Technology, SLIATE Kandy", "orgUrl": "", "description": "Software Development for 200+ HNDIT students: programming fundamentals, databases, web technologies and project implementation.", "current": false },
+    { "when": "Jan 2025 – Jan 2026", "title": "Research Assistant", "org": "Faculty of Engineering & Technology, CINEC Campus", "orgUrl": "", "description": "Collaborative research, experiments, data analysis and prototype development for mechanical research projects.", "current": false },
+    { "when": "Aug 2024 – Jan 2026", "title": "Visiting Lecturer", "org": "Dept. of Pharmaceutical Sciences, CINEC Campus", "orgUrl": "", "description": "Utilities and control systems, including pneumatics, hydraulics, steam generation and water purification.", "current": false },
+    { "when": "May 2024 – Feb 2025", "title": "Visiting Lecturer", "org": "Dept. of Mechanical Engineering, BIET Campus", "orgUrl": "", "description": "Fluid dynamics, mechanics, engineering mathematics and control systems for HND and BEng students.", "current": false },
+    { "when": "Jan 2024 – Jan 2025", "title": "Demonstrator", "org": "Faculty of Engineering & Technology, CINEC Campus", "orgUrl": "", "description": "Laboratory sessions, project assistance, assignment grading and lecturing support.", "current": false },
+    { "when": "Jul 2023 – Dec 2023", "title": "Safety Engineer (Intern)", "org": "Blaze Guard Fire Engineering Service", "orgUrl": "", "description": "Fire risk evaluations, safety audits, training and fire safety system design and testing.", "current": false },
+    { "when": "Jul 2023 – Dec 2023", "title": "Design & Development Engineer (Intern)", "org": "MAS Fabrics, MAS Holdings", "orgUrl": "", "description": "KPI tracking, departmental system design and project inspection.", "current": false },
+    { "when": "Jan 2022 – Jul 2022", "title": "Mechanical Engineer (Intern)", "org": "MAS Intimates, MAS Holdings", "orgUrl": "", "description": "Cross-functional work with mechanical, maintenance, mechatronics, innovation and sustainability teams.", "current": false }
+  ],
+  "education": [
+    { "when": "2019 – 2023", "title": "BSc (Hons) in Engineering — Mechanical Engineering", "org": "CINEC Campus, Sri Lanka", "description": "GPA 3.44/4 (WES iGPA 3.82/4). Top of the Mechanical Engineering programme. 145 SL credits / 290 ECTS." },
+    { "when": "2021 – 2024", "title": "Higher National Diploma in Information Technology", "org": "Sri Lanka Institute of Advanced Technological Education (SLIATE)", "description": "GPA 3.55/4. Top five of 80+ students. 87 SL credits / 174 ECTS." },
+    { "when": "2004 – 2017", "title": "G.C.E. Advanced & Ordinary Level", "org": "Kingswood College, Kandy", "description": "A/L Physical Science; O/L 8 distinctions and 1 very good pass." }
+  ],
+  "awards": [
+    { "heading": "Research Awards", "items": [
+      "Best Scientific Paper, Sustainable Water & Wastewater Management session — 16th ICSBE 2025",
+      "Best Poster, Mechanical & Mechatronics Engineering — 6th CIRS, October 2025",
+      "Best Poster, Mechanical & Automotive Engineering — 5th CIRS, December 2024"
+    ]},
+    { "heading": "Academic Distinctions", "items": [
+      "Top of Mechanical Engineering programme (40+ students) — CINEC",
+      "Second across Mechanical & Automotive programmes (70+ students) — CINEC",
+      "Top 5 in HNDIT (80+ students) — SLIATE",
+      "Higher education scholarship — Ministry of Higher Education with CINEC",
+      "Final-year project selected for the Ministry of Rural Economic Affairs"
+    ]},
+    { "heading": "Nominations", "items": [
+      "Nominated by the Ministry of Education for the ICCR Maulana Azad Postgraduate Scholarship 2024/25 (one of 20 engineering graduates)",
+      "Final interview, Stipendium Hungaricum Master's Scholarship 2024/25",
+      "Delegate, Unilever Youth Forum 2022 (one of 600 students nationwide)"
+    ]}
+  ],
+  "contact": {
+    "office": "Department of Mechanical Engineering\nFaculty of Engineering\nGeneral Sir John Kotelawala Defence University\nRatmalana, Sri Lanka",
+    "emails": [
+      { "address": "wijewickrama.alss@kdu.ac.lk", "label": "office" },
+      { "address": "hiruwijewickrama@gmail.com", "label": "personal" }
+    ]
+  },
+  "footer": "© 2026 Lahiru Wijewickrama · Hosted on GitHub Pages"
+}
